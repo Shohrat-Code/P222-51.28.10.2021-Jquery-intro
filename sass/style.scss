@@ -1,0 +1,50 @@
+main {
+    #banner {
+        .wrapper {
+            .title {
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    display: flex;
+                    li {
+                        margin-right: 20px;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .content {
+                position: relative;
+                .item {
+                    display: none;
+                    position: absolute;
+                    top: 0;
+                    box-shadow: 0px 0px 20px -10px black;
+                    border-radius: 5px;
+                    padding: 15px;
+                    h1 {
+                        font-size: 25px;
+                    }
+                    p {}
+                }
+            }
+        }
+        .click {
+            .title {
+                height: 50px;
+                text-align: center;
+                background-color: red;
+                line-height: 50px;
+                cursor: pointer;
+                font-size: 30px;
+            }
+            .content {
+                padding: 50px;
+                background-color: black;
+                color: white;
+                text-align: center;
+                font-size: 50px;
+                display: none;
+            }
+        }
+    }
+}
